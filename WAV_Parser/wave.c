@@ -1,29 +1,25 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct header
-{
-    char fileformat[4];
-    int file_size;
-    char subformat[4];
-    char subformat_id[4];
-    int chunk_bits;     		//16or18or40 due to pcm it is 16 here
-    short int audio_format;    		 //little or big endian
-    short int num_channels;     		//2 here for left and right
-    int sample_rate;					// sample_rate denotes the sampling rate.
-    int byte_rate;           		//bytes  per second
-    short int bytes_per_frame;
-    short int bits_per_sample;
-    char data_id[4];    		//"data" written in ascii
-    int data_size;
-};
-typedef struct header head ;
+typedef struct{
+	char fileformat[4];
+	int file_size;
+	char subformat[4];
+	char subformat_id[4];
+	int chunk_bits;     		// 16 or 18 or 40 due to pcm it is 16 here
+	short int audio_format;    	// little or big endian
+	short int num_channels;     	// 2 here for left and right
+	int sample_rate;		// sample_rate denotes the sampling rate.
+	int byte_rate;           	// bytes  per second
+	short int bytes_per_frame;
+	short int bits_per_sample; 
+	char data_id[4];    		// "data" written in ascii
+	int data_size;
+}head;
+
 head *d;
 
-
-int main(int argc, char *argv[])
-	{
-
+int main(int argc, char *argv[]){
 	printf("************************** Welcome to the WAVE file parser ************************\n");
 	printf("*********************************** Version 1.0 ***********************************\n");
 	printf("\n               Please Provide the name of the file to be parsed    -----  \n");
@@ -35,11 +31,8 @@ int main(int argc, char *argv[])
 	d=(head*)malloc(sizeof(head));
 	if (!ptr_file)
 		return 1;
-
 	fread(d,1,sizeof(head),ptr_file);
-
 	printf("\nThe header details are as follows  -----\n");
-
 	printf("File Format      : %c",d->fileformat[0]);
 	printf("%c",d->fileformat[1]);
 	printf("%c",d->fileformat[2]);
@@ -65,8 +58,7 @@ int main(int argc, char *argv[])
 	printf("%c",d->data_id[2]);
 	printf("%c",d->data_id[3]);
 	printf("\nData Size        : %d\n",d->data_size);
-
 	fclose(ptr_file);
-	
+
 	return 0;
 }
