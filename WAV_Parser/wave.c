@@ -59,6 +59,6 @@ int main(int argc, char *argv[]){
 	printf("%c",d->data_id[3]);
 	printf("\nData Size        : %d\n",d->data_size);
 	fclose(ptr_file);
-
+	system("pause"); 
 	return 0;
 }
