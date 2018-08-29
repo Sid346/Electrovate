@@ -17,6 +17,7 @@ typedef struct{
 	int data_size;
 }head;
 
+
 head *d;
 
 int main(int argc, char *argv[]){
