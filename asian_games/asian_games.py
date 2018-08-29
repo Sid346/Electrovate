@@ -1,10 +1,11 @@
 from lxml import html
 import requests as rq
 import matplotlib.pyplot as mp
-
+import py2exe as exe
 
 import sys
-from PyQt5 import QtWidgets,QtGui,QtCore
+from PyQt5 import QtWidgets,QtGui,QtCore,sip
+
 from functools import partial
 
 class Window(QtWidgets.QMainWindow):

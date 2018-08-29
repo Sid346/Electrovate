@@ -1,11 +1,11 @@
 missing module named pyimod03_importers - imported by c:\users\sid\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
 missing module named StringIO - imported by urllib3.packages.six, six, requests.compat, numpy.lib.utils, numpy.testing.nose_tools.utils, numpy.lib.format, pkg_resources._vendor.six
-missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
-missing module named __builtin__ - imported by numpy.core.numerictypes, numpy.core.numeric, numpy.distutils.misc_util, numpy.lib.function_base, numpy.lib._iotools, numpy.ma.core, numpy, pyparsing, pkg_resources._vendor.pyparsing
-missing module named ordereddict - imported by pyparsing, pkg_resources._vendor.pyparsing
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.markers, pkg_resources._vendor.packaging.requirements
 missing module named 'com.sun' - imported by pkg_resources._vendor.appdirs
 missing module named com - imported by pkg_resources._vendor.appdirs
 missing module named 'win32com.gen_py' - imported by win32com, c:\users\sid\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+missing module named __builtin__ - imported by numpy.core.numerictypes, numpy.core.numeric, numpy.distutils.misc_util, numpy.lib.function_base, numpy.lib._iotools, numpy.ma.core, numpy, pyparsing, pkg_resources._vendor.pyparsing
+missing module named ordereddict - imported by pyparsing, pkg_resources._vendor.pyparsing
 missing module named __main__ - imported by pkg_resources
 missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
 missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
@@ -19,18 +19,19 @@ missing module named pkg_resources.extern.appdirs - imported by pkg_resources.ex
 missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, pkg_resources._vendor.packaging.requirements
 missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources
 missing module named 'multiprocessing.forking' - imported by c:\users\sid\appdata\local\programs\python\python36-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
-missing module named resource - imported by posix, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named posix - imported by os, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named readline - imported by cmd, code, pdb, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named _winreg - imported by platform, requests.utils, numpy.distutils.cpuinfo, C:\Users\SID\Desktop\python\asian_games\asian_games.py, pkg_resources._vendor.appdirs
+missing module named resource - imported by posix, C:\Users\SID\Desktop\python\asian_games.py
+missing module named posix - imported by os, C:\Users\SID\Desktop\python\asian_games.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\SID\Desktop\python\asian_games.py
+missing module named 'org.python' - imported by pickle, setuptools.sandbox, C:\Users\SID\Desktop\python\asian_games.py, xml.sax
+missing module named readline - imported by cmd, code, pdb, C:\Users\SID\Desktop\python\asian_games.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\SID\Desktop\python\asian_games.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\SID\Desktop\python\asian_games.py
+missing module named _winreg - imported by platform, requests.utils, numpy.distutils.cpuinfo, C:\Users\SID\Desktop\python\asian_games.py, pkg_resources._vendor.appdirs
 missing module named _scproxy - imported by urllib.request
-missing module named java - imported by platform, unittest.mock, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named 'java.lang' - imported by platform, C:\Users\SID\Desktop\python\asian_games\asian_games.py, xml.sax._exceptions
-missing module named vms_lib - imported by platform, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named termios - imported by tty, getpass, C:\Users\SID\Desktop\python\asian_games\asian_games.py
+missing module named java - imported by platform, unittest.mock, C:\Users\SID\Desktop\python\asian_games.py
+missing module named 'java.lang' - imported by platform, C:\Users\SID\Desktop\python\asian_games.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\Users\SID\Desktop\python\asian_games.py
+missing module named termios - imported by tty, getpass, C:\Users\SID\Desktop\python\asian_games.py
 missing module named urllib.splittag - imported by urllib, setuptools.py26compat
 missing module named urllib.getproxies_environment - imported by urllib, requests.compat
 missing module named urllib.proxy_bypass_environment - imported by urllib, requests.compat
@@ -42,11 +43,10 @@ missing module named urllib.unquote - imported by urllib, asn1crypto._iri, reque
 missing module named urllib.quote - imported by urllib, asn1crypto._iri, requests.compat
 missing module named urllib.urlopen - imported by urllib, lxml.html
 missing module named urllib.urlencode - imported by urllib, lxml.html, requests.compat
-missing module named grp - imported by shutil, tarfile, pathlib, distutils.archive_util, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named _dummy_threading - imported by dummy_threading, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named 'org.python' - imported by copy, setuptools.sandbox, C:\Users\SID\Desktop\python\asian_games\asian_games.py, xml.sax
-missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, pathlib, distutils.util, distutils.archive_util, C:\Users\SID\Desktop\python\asian_games\asian_games.py
-missing module named org - imported by pickle, C:\Users\SID\Desktop\python\asian_games\asian_games.py
+missing module named grp - imported by shutil, tarfile, pathlib, distutils.archive_util, C:\Users\SID\Desktop\python\asian_games.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, pathlib, distutils.util, distutils.archive_util, C:\Users\SID\Desktop\python\asian_games.py
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\SID\Desktop\python\asian_games.py
+missing module named org - imported by copy, C:\Users\SID\Desktop\python\asian_games.py
 missing module named 'tkinter._fix' - imported by py2exe.hooks
 missing module named six.moves.xrange - imported by six.moves, matplotlib.cbook, matplotlib.backend_bases, matplotlib.hatch, matplotlib.markers, matplotlib.colorbar, matplotlib.contour, matplotlib.dviread, matplotlib.offsetbox, matplotlib.backends.backend_svg, matplotlib.mlab, matplotlib.tri.triinterpolate, matplotlib.axes._axes, matplotlib.stackplot, matplotlib.streamplot, matplotlib.table, matplotlib.axes._base
 runtime module named six.moves - imported by cryptography.x509.general_name, matplotlib.cbook, matplotlib.backend_bases, matplotlib.colors, matplotlib.textpath, matplotlib.hatch, matplotlib.afm, matplotlib.font_manager, matplotlib.patches, matplotlib.markers, matplotlib.text, matplotlib.axes._subplots, cycler, matplotlib.colorbar, matplotlib.collections, matplotlib.contour, matplotlib.dviread, matplotlib.offsetbox, 'six.moves.urllib', matplotlib.dates, dateutil.rrule, dateutil.tz.tz, dateutil.tz.win, matplotlib.backends.backend_svg, matplotlib.legend_handler, matplotlib.mlab, matplotlib.tri.triinterpolate, matplotlib.widgets, matplotlib.axes._axes, matplotlib.stackplot, matplotlib.streamplot, matplotlib.table, matplotlib.axes._base, matplotlib, matplotlib.backends.tkagg, matplotlib.backends._backend_tk, matplotlib.backends.backend_ps
