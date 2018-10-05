@@ -1,17 +1,14 @@
-from lxml import html
-import requests as rq
-import matplotlib.pyplot as mp
-import py2exe as exe
-
-import sys
-from PyQt5 import QtWidgets,QtGui,QtCore,sip
-
-from functools import partial
+from lxml import html                                      #For taking data from the Html structure 
+import requests as rq                                      #To send Http request 
+import matplotlib.pyplot as mp                             #Plot the graph         
+import sys                                                 #System-specific parameters and functions
+from PyQt5 import QtWidgets,QtGui,QtCore,sip               #Creating a GUI
+from functools import partial                              #Create partial Functions
 
 class Window(QtWidgets.QMainWindow):
 
     def __init__(self,title,height,height1,height2,height3,country):
-        super().__init__()                                           #used for providing control to the inherited module
+        super().__init__()                                 #used for providing control to the inherited module
         self.setGeometry(50,50,300,300)
         self.setWindowTitle(title)
         self.setWindowIcon(QtGui.QIcon('favicon.png'))
